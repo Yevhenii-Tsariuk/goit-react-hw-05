@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  border-bottom: 1px solid rgb(145, 39, 0);
+  box-shadow: 0 5px 5px rgba(255, 69, 0, 0.2);
+  padding: 6px 18px;
+}
+
+.image {
+  object-fit: cover;
+}
+.contentWrapper {
+  padding: 10px;
+}
+
+.subtitle {
+  padding-bottom: 18px;
+  padding-top: 6px;
+  font-size: 20px;
+  color: orangered;
+}

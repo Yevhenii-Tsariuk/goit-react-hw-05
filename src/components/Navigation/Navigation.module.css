@@ -1,0 +1,16 @@
+.link {
+  text-decoration: none;
+}
+
+.active {
+  color: orangered;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+  padding: 10px 0 10px 18px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid rgb(145, 39, 0);
+  box-shadow: 0 5px 6px rgba(255, 69, 0, 0.9);
+}
