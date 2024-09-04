@@ -2,3 +2,11 @@
   color: orangered;
   padding-bottom: 8px;
 }
+
+.item{
+border-bottom: 1px solid rgb(145, 39, 0);
+}
+
+.text{
+     padding-bottom: 10px;
+}

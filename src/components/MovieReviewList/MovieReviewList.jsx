@@ -9,9 +9,9 @@ export default function MovieReviewList({ reviews }) {
       <ul>
         {reviews.map(({ id, author, content }) => {
           return (
-            <li key={id}>
+            <li key={id} className={css.item}>
               <h3 className={css.subtitle}>Author: {author}</h3>
-              <p>{content}</p>
+              <p className={css.text}>{content}</p>
             </li>
           );
         })}
